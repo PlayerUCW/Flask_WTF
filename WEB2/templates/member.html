@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ m.name }} {{ m.surname }}</h1>
+    <img src={{ m.photo }}>
+    <p>{{ m.profs|sort|join(', ') }}</p>
+{% endblock %}

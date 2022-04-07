@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    {% if "инженер" in p %}
+        <h2>Инженерные тренажёры</h2>
+        <img src="../../static/arrow.png" style="position:absolute; top:375px; left:375px; width:30px;">
+    {% else %}
+        <h2>Научные симуляторы</h2>
+        <img src="../../static/arrow.png" style="position:absolute; top:250px; left:100px; width:30px;">
+    {% endif %}
+    <img src="../../static/spaceship.jpg">
+{% endblock %}

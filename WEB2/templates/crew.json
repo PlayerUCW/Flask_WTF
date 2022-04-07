@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Алексей",
+        "surname": "Вопилин",
+        "photo": "/static/friday.jpg",
+        "profs": [
+            "руко-водитель"
+        ]
+    },
+    {
+        "name": "Василий",
+        "surname": "Пупкин",
+        "photo": "/static/crewmate.png",
+        "profs": [
+            "оператор марсохода",
+            "паркетоукладчик"
+        ]
+    },
+    {
+        "name": "Пётр",
+        "surname": "Сковородко",
+        "photo": "/static/radio.jpg",
+        "profs": [
+            "друг дронов",
+            "инженер фей"
+        ]
+    },
+    {
+        "name": "Гарик",
+        "surname": "Гончаров",
+        "photo": "/static/guitar.png",
+        "profs": [
+            "экзобиолог",
+            "киберинженер",
+            "гончар"
+        ]
+    }
+]
